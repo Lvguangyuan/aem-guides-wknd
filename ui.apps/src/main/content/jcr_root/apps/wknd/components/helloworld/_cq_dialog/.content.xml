@@ -16,9 +16,15 @@
                         sling:resourceType="granite/ui/components/coral/foundation/form/textfield"
                         fieldLabel="Text"
                         name="./text"/>
+                    <pathfield
+                    <pathfield
+                            jcr:primaryType="nt:unstructured"
+                            sling:resourceType="granite/ui/components/coral/foundation/form/pathfield"
+                            fieldLabel="Image"
+                            name="./image"
+                            rootPath="/content/dam/wknd-shared"/>
                 </items>
             </column>
         </items>
     </content>
 </jcr:root>
-
